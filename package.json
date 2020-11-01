@@ -21,10 +21,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "jest": {
-    "verbose": true,
-    "test:ci": "react-scripts test --testResultsProcessor ./node_modules/jest-junit"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
