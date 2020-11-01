@@ -1,3 +1,10 @@
+## ePharmacy Delivery Stystem Front End
+
+[![Build Status](https://travis-ci.com/OpatileKelobang/frontend.svg?branch=master)](https://travis-ci.com/OpatileKelobang/frontend)
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
