@@ -22,7 +22,8 @@
     "extends": "react-app"
   },
   "jest": {
-    "verbose": true
+    "verbose": true,
+    "test:ci": "react-scripts test --testResultsProcessor ./node_modules/jest-junit",
   },
   "browserslist": {
     "production": [
