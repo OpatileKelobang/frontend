@@ -23,7 +23,7 @@
   },
   "jest": {
     "verbose": true,
-    "test:ci": "react-scripts test --testResultsProcessor ./node_modules/jest-junit",
+    "test:ci": "react-scripts test --testResultsProcessor ./node_modules/jest-junit"
   },
   "browserslist": {
     "production": [
