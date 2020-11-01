@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --ci --coverage --reporters=default --reporters=jest-junit",
+    "test:ci": "react-scripts test --env=jsdom --reporters=default --reporters=jest-junit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
