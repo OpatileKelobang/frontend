@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>ePharmacy Delivery System</h1>
       <Dashboard />
     </div>
   );
