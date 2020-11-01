@@ -5,6 +5,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import Pharmacy from "./Layout/Pharmacy";
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -78,7 +79,10 @@ export default function Dasboard() {
                 <Tab label="Orders" {...a11yProps(5)} />
             </Tabs>
             <TabPanel value={value} index={0}>
-                Item One
+                <Typography>
+                    <h1>Pharmacy</h1>
+                </Typography>
+                <Pharmacy/>
             </TabPanel>
             <TabPanel value={value} index={1}>
                 Item Two
